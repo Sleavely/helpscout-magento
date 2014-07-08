@@ -40,7 +40,7 @@ if ($app->isSignatureValid())
   $orders = Order::whereIn('customer_email', $customer->getEmails())->orderBy('entity_id', 'desc')->take(5)->get();
   foreach($orders as $order)
   {
-    $html[] = '<li><a href="http://animail.se/index.php/admin/sales_order/view/order_id/'.$order->entity_id.'/" target="_blank">#'.$order->increment_id.'</a>, '.number_format($order->base_grand_total, 2).' '.$order->base_currency_code .'</li>';
+    $html[] = '<li><a href="http://example.com/index.php/admin/sales_order/view/order_id/'.$order->entity_id.'/" target="_blank">#'.$order->increment_id.'</a>, '.number_format($order->base_grand_total, 2).' '.$order->base_currency_code .'</li>';
   }
   $html[] = '</ul>';
   echo $app->getResponse($html);
