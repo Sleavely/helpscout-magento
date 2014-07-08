@@ -1,6 +1,6 @@
 {
-    "name": "sleavely/helpscout",
-    "description": "HelpScout app for Animails Magento",
+    "name": "sleavely/helpscout-magento",
+    "description": "HelpScout app for Magento",
     "authors": [
         {
             "name": "Joakim Hedlund",
