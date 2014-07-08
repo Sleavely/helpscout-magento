@@ -1,0 +1,15 @@
+{
+    "name": "sleavely/helpscout",
+    "description": "HelpScout app for Animails Magento",
+    "authors": [
+        {
+            "name": "Joakim Hedlund",
+            "email": "contact@joakimhedlund.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/database": "4.0.*",
+        "helpscout/apps": "1.0.1"
+    }
+}
